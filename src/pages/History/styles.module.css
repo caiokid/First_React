@@ -1,0 +1,69 @@
+.buttonContainer button{
+    min-width: auto;
+    margin: 0;
+    padding: 1rem;
+    background-color: red;
+    margin-left: 30px;
+    color: white;
+}
+
+.buttonContainer button svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.opa{
+
+    display: flex;
+
+
+}
+
+.help{
+    padding: 0;
+    color:red;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.responsiveTable{
+    overflow-x: auto;
+    border-radius: 0.8rem;
+
+}
+
+.responsiveTable table{
+    width: 100%;
+    min-width: 64rem;
+    font-size: 1.6rem;
+    border-collapse: collapse; /* Para deixar com 1 borda  */
+}
+
+.responsiveTable  th{
+    background-color: var(--gray-600);
+}
+
+
+.responsiveTable  td{
+    background-color: var(--gray-800);
+}
+
+.responsiveTable table th,
+.responsiveTable table td{
+    border-bottom: 0.2rem solid var(--gray-700);
+    padding: 1.6rem;
+    text-align: left;
+}
+
+
+
+
+.click{
+    cursor: pointer;
+}
+.click:hover{
+    background-color: var(--gray-700);
+}
+
+

@@ -1,0 +1,14 @@
+.heading{
+    margin: 3.2rem 0;
+    text-align: center;
+    color: green;
+}
+
+.heading button{
+    background-color:green;
+    width: 50px;
+    border-radius: 8px;
+    padding-top: 5px;
+    border-color: black;
+}
+
